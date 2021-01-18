@@ -5,5 +5,42 @@
 }
 
 body{
-  background-color: blue;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+nav {
+  position: absolute;
+  right: 0;
+  list-style: none;
+  position: fixed;
+  z-index: 10;
+}
+ul {
+  list-style: none;
+  margin: 20px 40px;
+}
+
+li {
+  display: inline-block;
+  padding: 17px 20px;
+  background-color: white;
+  border-radius:50%;
+  font-size: 20px;
+
+}
+
+section {
+  height: 100vh;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: red;
+}
+
+#yellow {
+  background-color: red;
 }
