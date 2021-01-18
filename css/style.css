@@ -18,16 +18,24 @@ nav {
 
 ul {
   list-style: none;
-  margin: 30px 40px;
+  margin: 40px 40px;
+  text-decoration:none;
+  font-size: 20px;
+  color: black;
 }
 
 li {
   display: inline-block;
+}
+
+a {
   padding: 17px 20px;
   background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
   border-radius:50%;
-  font-size: 20px;
 }
+
 /* /barra di navigazione */
 
 /* struttura del viewport */
@@ -35,18 +43,17 @@ section {
   height: 100vh;
   position: relative;
 }
-
-#red {
+#section-red {
   background-color: red;
   color: yellow;
 }
 
-#green {
+#section-green {
   background-color: green;
   color: yellow;
 }
 
-#yellow {
+#section-yellow {
   background-color: yellow;
   color: green;
 }
@@ -58,6 +65,7 @@ img {
 h2 {
   font-size: 20px;
   text-align: center;
+  text-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.5);
 
 }
 .image-shoes{
@@ -67,5 +75,4 @@ h2 {
   transform: translate(-50%, -50%);
   width: 40%;
 }
-
 /* /struttura del viewport */
