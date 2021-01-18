@@ -7,7 +7,7 @@
 body{
   font-family: 'Rubik Mono One', sans-serif;
 }
-
+/* barra di navigazione */
 nav {
   position: absolute;
   right: 0;
@@ -15,9 +15,10 @@ nav {
   position: fixed;
   z-index: 10;
 }
+
 ul {
   list-style: none;
-  margin: 20px 40px;
+  margin: 30px 40px;
 }
 
 li {
@@ -26,21 +27,45 @@ li {
   background-color: white;
   border-radius:50%;
   font-size: 20px;
-
 }
+/* /barra di navigazione */
 
+/* struttura del viewport */
 section {
   height: 100vh;
+  position: relative;
 }
 
 #red {
   background-color: red;
+  color: yellow;
 }
 
 #green {
-  background-color: red;
+  background-color: green;
+  color: yellow;
 }
 
 #yellow {
-  background-color: red;
+  background-color: yellow;
+  color: green;
 }
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+
+}
+.image-shoes{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+
+/* /struttura del viewport */
